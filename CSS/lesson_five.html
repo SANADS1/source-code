@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Html Forms</title>
+        <link rel="stylesheet" href="./styles/styles.css">
+    </head>
+    <!-- This is the body of my new html documennt-->
+    <body>
+        <h1 style="color: slateblue;">Lesson Five Html Forms</h1>
+        <!-- This paragraph is red -->
+        <p>Registration Details</p>
+        <p>Please enter your registration details correctly</p>
+        <div>
+        <form action="./action.js" method="POST">
+            <label for="fname">First Name</label>
+            <br>
+            <input type="text" name="fname" value="">
+            
+            <label>Last Name: </label>
+            <input type="text" name="lname" value="">
+
+            <label>Age: </label>
+            <input type="text" name="age" value="">
+            <label>Gender: </label>
+            <label>Male</label>
+            <input type="radio" name="gender" value="male"  id="male">
+            <label>Female: </label>
+            <input type="radio" name="gender" value="female" id="female">
+            <br>
+
+            <textarea rows="5">Describe yourself</textarea>
+            <br>
+
+            <label>Hobbies</label>
+            <label>Travelling</label>
+            <input type="checkbox" name="hobbies" value="hobbies">
+
+            <label>Eating</label>
+            <input type="checkbox" name="hobbies" value="hobbies">
+
+            <label>Dancing</label>
+            <input type="checkbox" name="hobbies" value="hobbies">
+
+            <label>Reading</label>
+            <input type="checkbox" name="hobbies" value="hobbies">
+            <br>
+            <input type="button" name="submit" value="Submit">
+        </form>
+    </div>
+    </body>
+</html>

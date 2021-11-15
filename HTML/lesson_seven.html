@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio Page</title>
+        <link rel="stylesheet" href="./styles/styles.css">
+    </head>
+    <body style="background-color: skyblue;">
+        <h1>Welcome to my portfolio page</h1>
+        <div class="profilePicture">
+            <img src="./images/download.jpeg">
+        </div>
+        <div class="profileDetails">
+            <p id=profileName>Xavier Francis</p>
+            <p id=profileDetails>My name is adeyemi ayomide, i am a front-end designer. I love front-end design because it makes me think also anlytical in your thinking
+                I hope to pursue a career in software devlopment with the help of God and my numerous gilrfirends...
+            </p>
+            <div class="enquiryForm">
+                <p> Have a question for me? Please kindly fill out the form below. Cheerio</p>
+                <form action="./enquiry.js" method="POST">
+                    <label> First name</label>
+                    <input type="text" name="fname" value="" placeholder="First Name" id=firstname>
+                    <br>
+
+                    <label> Email</label>
+                    <input type="email" name="email" value="" placeholder="Enter your email">
+                    <br>
+
+                    <label style="vertical-align: top;"> Suggestion</label>
+                    <textarea cols="30", rows="5">Enter your message</textarea>
+                    <br>
+
+                    <label> Where are you from</label>
+                    <select id=location>
+                        <option>Hell fire</option>
+                        <option>USA</option>
+                        <option>Nigeria</option>
+                        <option>Kitchen</option>
+                        <option>Across th street</option>
+                    </select>
+                    <br>
+                    <input type="button" name='Submit' value="Submit">
+                </form>
+            </div>
+        </div>
+        <footer>
+            <p>Copyright 2021. All rights reserved...</p>
+        </footer>
+    </body>
+</html>

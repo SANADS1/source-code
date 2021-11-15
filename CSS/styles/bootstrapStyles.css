@@ -1,0 +1,28 @@
+body{
+    background-color: black !important;
+}
+.main_content {
+    background-image: url(../images/IMG_0087.PNG);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    color: white;
+}
+
+.footer {
+    border: 1px solid black;
+    height: 60px;
+    margin-top: 80px;
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+    position: sticky;
+}
+.nav-link {
+    color: yellow !important;
+}
+
+.navbar-brand  {
+    color: yellow;
+}
